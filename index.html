@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>test</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+	<header class="header" id="header">
+		<h1 class="header-title">სუში ნინოსთან</h1>
+		<p class="header-subtitle">რულონის მიწოდება</p>
+		<div class="header-arrow">
+			<img id="btn" src="./img/chevron-down.svg" alt="Arrow">
+		</div>
+	</header>
+
+	<section id="section">
+		<h2> ჩვენი მენიუ </h2>
+		<div class="container mb-5">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="row" id="products-container">
+
+	<!-- Ролл -->
+	<div class="col-md-6">
+		<div class="card mb-4" data-id="01">
+			<img class="product-img" src="img/roll/philadelphia.jpg" alt="">
+			<div class="card-body text-center">
+				<h4 class="item-title">ფილადელფიაში მოხვდა</h4>
+				<p><small data-items-in-box class="text-muted"><b>6 ცალი</b></small></p>
+
+				<div class="details-wrapper">
+					<div class="items counter-wrapper">
+						<div class="items__control" data-action="minus">-</div>
+						<div class="items__current" data-counter>1</div>
+						<div class="items__control" data-action="plus">+</div>
+					</div>
+
+					<div class="price">
+						<div class="price__weight">180 gr.</div>
+						<div class="price__currency">20 ლ.</div>
+					</div>
+				</div>
+
+				<button data-cart type="button" class="btn btn-block btn-outline-warning">+ ნაგავში</button>
+
+			</div>
+		</div>
+	</div>
+	<!-- // Ролл -->
+
+	<!-- Ролл -->
+	<div class="col-md-6">
+		<div class="card mb-4" data-id="02">
+			<img class="product-img" src="img/roll/california-tempura.jpg" alt="">
+			<div class="card-body text-center">
+				<h4 class="item-title">კალიფორნიის ტემპურა</h4>
+				<p><small data-items-in-box class="text-muted"><b>6 ცალი</b></small></p>
+
+				<div class="details-wrapper">
+					<div class="items counter-wrapper">
+						<div class="items__control" data-action="minus">-</div>
+						<div class="items__current" data-counter>1</div>
+						<div class="items__control" data-action="plus">+</div>
+					</div>
+
+					<div class="price">
+						<div class="price__weight">205 gr.</div>
+						<div class="price__currency">25 ლ.</div>
+					</div>
+				</div>
+
+				<button data-cart type="button" class="btn btn-block btn-outline-warning">+ ნაგავში</button>
+
+			</div>
+		</div>
+	</div>
+	<!-- // Ролл -->
+
+	<!-- Ролл -->
+	<div class="col-md-6">
+		<div class="card mb-4" data-id="03">
+			<img class="product-img" src="img/roll/zapech-california.jpg" alt="">
+			<div class="card-body text-center">
+				<h4 class="item-title">გამომცხვარი რულეტი "კალიფორნია"</h4>
+				<p><small data-items-in-box class="text-muted"><b>6 ცალი</b> </small></p>
+
+				<div class="details-wrapper">
+					<div class="items counter-wrapper">
+						<div class="items__control" data-action="minus">-</div>
+						<div class="items__current" data-counter>1</div>
+						<div class="items__control" data-action="plus">+</div>
+					</div>
+
+					<div class="price">
+						<div class="price__weight">182 gr.</div>
+						<div class="price__currency">23 ლ.</div>
+					</div>
+
+				</div>
+
+				<button data-cart type="button" class="btn btn-block btn-outline-warning">+ ნაგავში</button>
+
+			</div>
+		</div>
+	</div>
+	<!-- // Ролл -->
+
+	<!-- Ролл -->
+	<div class="col-md-6">
+		<div class="card mb-4" data-id="04">
+			<img class="product-img" src="img/roll/philadelphia.jpg" alt="">
+			<div class="card-body text-center">
+				<h4 class="item-title">ფილადელფია</h4>
+				<p><small data-items-in-box class="text-muted"><b>6 ცალი</b></small></p>
+
+				<div class="details-wrapper">
+					<div class="items counter-wrapper">
+						<div class="items__control" data-action="minus">-</div>
+						<div class="items__current" data-counter>1</div>
+						<div class="items__control" data-action="plus">+</div>
+					</div>
+
+					<div class="price">
+						<div class="price__weight">230 gr.</div>
+						<div class="price__currency">20 ლ.</div>
+					</div>
+
+				</div>
+
+				<button data-cart type="button" class="btn btn-block btn-outline-warning">
+					+ ნაგავში
+				</button>
+
+			</div>
+		</div>
+		<div class="load-more">
+				<button data-cart type="button" class="btn btn-block btn-outline-warning">
+					მეტის ჩატვირთვა
+				</button>
+		</div>
+	</div>
+	<!-- // Ролл -->
+
+	</div>
+</div>
+<div class="col-md-4">
+
+	<!-- Корзина -->
+	<div class="card mb-4">
+		<div class="card-body">
+			<h5 class="card-title">თქვენი შეკვეთა</h4>
+				<div data-cart-empty class="alert alert-secondary" role="alert">
+					კალათა ცარიელია
+				</div>
+				<!-- cart-wrapper -->
+				<div class="cart-wrapper">
+
+				</div>
+				<!-- // cart-wrapper -->
+
+				<!-- Стоимость заказа -->
+				<div class="cart-total">
+					<p data-cart-delivery class="none">
+						<span class="h5">მიწოდება:</span>
+						<span class="delivery-cost free">თავისუფალია</span>
+					</p>
+					<p><span class="h5">სულ:</span>
+						<span class="total-price">0</span>
+						<span class="rouble">ლ.</span>
+					</p>
+				</div>
+				<!-- // Стоимость заказа -->
+		</div>
+
+		<!-- Оформить заказ -->
+		<div id="order-form" class="card-body border-top none">
+			<h5 class="card-title">გადახდა</h4>
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="თქვენი ტელეფონის ნომერი">
+					</div>
+					<button type="submit" class="btn-send">შეკვეთა</button>
+				</form>
+		</div>
+		<!-- // Оформить заказ -->
+	</div>
+	<!-- // Корзина -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer Section start -->
+<footer class="footer">
+	<div class="logo-box">
+	   <a href="#" class="logo"><img src="./img/logo.jpg" alt="" srcset=""></a>
+	</div>
+		<div class="nav-box">
+		    <div class="nav-list">
+			    <h5 class="lang" key="footer_title_1" id="link-title">Navigation</h5>
+				<ul class="nav-link">
+					<li class="nav-item"><a href="index.html" class="lang" key="home">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="lang" key="about">About</a></li>
+					<li class="nav-item"><a href="services.html" class="lang" key="services">Services</a></li>
+					<li class="nav-item"><a href="contacts.html" class="lang" key="contacts">Contact</a></li>
+				</ul>
+		    </div>
+	        <div class="nav-list">
+			    <h5 class="lang" key="footer_title_2">Quick links</h5>
+			    <ul class="nav-link">
+					<li class="nav-item"><a href="#frieghts" class="lang" key="footer_subtitle_1">Delivery</a></li>
+					<li class="nav-item"><a href="#features" class="lang" key="footer_subtitle_2">Our Services</a></li>
+					<li class="nav-item"><a href="#frieghts" class="lang" key="footer_subtitle_3">Prices</a></li>
+					<li class="nav-item"><a href="#" class="lang" key="footer_subtitle_4">FAQ</a></li>
+			    </ul>
+		    </div>
+		    <div class="nav-list">
+			    <h5 class="lang" key="footer_title_3">Contacts</h5>
+				<ul class="nav-link">
+					<li class="nav-item"><a href="#">+995 xxx xx xx xx</a></li>
+					<li class="nav-item"><a href="#">+995 xxx xx xx xx</a></li>
+					<li class="nav-item"><a href="#">info@sushi-house.com</a></li>
+					<li class="nav-item"><a href="#">Georgia, Tbilisi</a></li>
+				</ul>
+		    </div>
+	    </div>
+		<div class="call-box">
+			<a href="tel:+995" class="call-btn"><img src="img/whatsapp-call.jpg" alt="call-icon"></a>
+		</div>
+		<div class="socials">
+				<ul class="socials-list">
+				   <li class="socials-item"><a class="socials-icon" href="#"><img src="img/facebook.png" alt="facebook-icon"></a></li>
+				   <li class="socials-item"><a class="socials-icon" href="#"><img src="img/instagram.png" alt="instagramm-icon"></a></li>
+				   <li class="socials-item"><a class="socials-icon" href="#"><img src="img/whatsapp.png" alt="twiter-icon"></a></li>
+				   <li class="socials-item"><a class="socials-icon" href="#"><img src="img/telegram.png" alt="linkedin-icon"></a></li>
+				</ul>
+			</div>
+	 <p class="credit">© 2022  <span>SUSHU HOUSE</span></p>
+</footer>
+ <!-- Footer Section end -->
+	<!-- Подключаем скрипты -->
+	</div>
+	        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11""></script>
+			<script src="./js/calcCartPrice.js"></script>
+			<script src="./js/toggleCartStatus.js"></script>
+			<script src="./js/counter.js"></script>
+			<script src="./js/cards.js"></script>
+			<script src="js/app.js"></script>
+     </body>
+</html>
